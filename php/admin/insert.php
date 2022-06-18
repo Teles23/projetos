@@ -13,8 +13,6 @@
 <body>
   <main>
     <div class="container">
-      
-        
       <form action="envia.php" method="POST" enctype="multipart/form-data" class="row g-3">
         <div class="col-mt-4">
           <label for="validationDefault01" class="form-label">Titulo</label>

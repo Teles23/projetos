@@ -17,5 +17,5 @@ $stmt->bindParam(':senha', $senha);
 //executar
 $stmt->execute();
 
-header("Location:cad_user.php");
+ header("Location:index.php");
 ?>

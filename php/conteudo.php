@@ -22,10 +22,10 @@
 	      <img src="images/hamburger.jpg" class="d-block w-100" alt="hamburguer">
 	    </div>
 	    <div class="carousel-item">
-	      <img src="images/hamburger.jpg" class="d-block w-100" alt="...">
+	      <img src="images/bg1.jpg" class="d-block w-100" alt="...">
 	    </div>
 	    <div class="carousel-item">
-	      <img src="images/hamburger.jpg" class="d-block w-100" alt="...">
+	      <img src="images/bg2.jpg" class="d-block w-100" alt="...">
 	    </div>
 	  </div>
 	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -51,7 +51,7 @@
 								<?= $post["description"] ?>
          					</p>
 		        			<a href="viewPost.php?id=<?= $post["id"] ?>">
-							<i class="fas fa-eye check-icon">Ver</i>
+							<i class="fas fa-eye check-icon"></i>
         					</a>
 		      			</div>
 		    		</div>
