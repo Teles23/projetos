@@ -1,14 +1,11 @@
 <?php 
 include "config/connection.php"; 
-include "nav.php";
 
 $stmt = $conectar->prepare("SELECT * FROM posts ORDER BY id DESC");
 $stmt->execute();
 
 $results = $stmt->fetchALL(PDO::FETCH_ASSOC);
-
-?>
-<?php include('conteudo.php'); ?>
+ ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -20,7 +17,10 @@ $results = $stmt->fetchALL(PDO::FETCH_ASSOC);
 	<title>Blog :: Thiago Teles</title>
 </head>
 <body>
-	<?php include('footer.php'); ?>
+	<?php
+	include "nav.php";
+	include "conteudo.php";
+	 include'footer.php'; ?>
 
 </body>
 </html>
