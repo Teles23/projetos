@@ -12,9 +12,12 @@
 </head>
 <body>
 
-			<nav class="navbar navbar-expand-lg navbar-expand-lg navbar-bg bg-primary">
+			<nav class="navbar navbar-expand-lg navbar-expand-lg navbar-bg" style="background-color:  #3F3039FF;">
+				  <a class="navbar-brand" href="#">
+      				<img src="images/comida.png" alt="" width="30" height="24">
+    </a>
 		  <div class="container">
-		    <a class="navbar-brand" href="#">Menu</a>
+		    <a class="navbar-brand" href="#">Blog</a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>

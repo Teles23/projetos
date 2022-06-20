@@ -10,7 +10,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body style="background-color: #1C1619D9;">
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 	  <div class="carousel-indicators">
 	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -19,13 +19,13 @@
 	  </div>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img src="images/hamburger.jpg" class="d-block w-100" alt="hamburguer">
+	      <img src="images/bg3.jpg" class="d-block w-100" alt="hamburguer">
 	    </div>
 	    <div class="carousel-item">
-	      <img src="images/bg1.jpg" class="d-block w-100" alt="...">
+	      <img src="images/bobs.jpg" class="d-block w-100" alt="...">
 	    </div>
 	    <div class="carousel-item">
-	      <img src="images/bg2.jpg" class="d-block w-100" alt="...">
+	      <img src="images/mc.jpg" class="d-block w-100" alt="...">
 	    </div>
 	  </div>
 	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -37,7 +37,7 @@
 	    <span class="visually-hidden">Next</span>
 	  </button>
 	</div>
-	<div class="container">
+	<div class="container" >
 		<div class="row row-cols-1 row-cols-md-3 g-4">
 			<?php foreach($results as $post): ?>
 		  		<div class="col gy-5">
